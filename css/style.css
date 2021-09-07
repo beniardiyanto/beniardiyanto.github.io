@@ -66,7 +66,7 @@ header ul li a:hover{
 /* === BANNER === */
 .banner{
     height: 80vh;
-    background-image: url('../img/Dzikir Desktop.jpg');
+    background-image: url('../img/annidawelcome.png');
     background-size: cover;
     position: relative;
     display: flex;
@@ -81,7 +81,7 @@ header ul li a:hover{
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: rgba(125, 129, 172, 0.6);
+    /* background-color: rgba(125, 129, 172, 0.6); */
 }
 .banner h2{
     color: white;
@@ -125,6 +125,14 @@ section h3{
 .box{
     /* border: 1px solid; */
     color: #0e4c6f;
+}
+.col-4 {
+    width: 25%;
+    padding: 20px;
+    float: left;
+    text-align: center;
+    /* border: 1px solid; */
+    box-sizing: border-box;
 }
 .box .col-4{
     width: 25%;
@@ -176,5 +184,11 @@ footer{
     width: 80%;
     margin: 0 auto;
 }
-
+/* ===== ABOUT PAGE ===== */
+.breadcrumb {
+    padding: 30px 0;
+    background-color: #0e4c6f;
+    color: white;
+}
+  /* ===== ABOUT PAGE ===== */
 
