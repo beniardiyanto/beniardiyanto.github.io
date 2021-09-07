@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* === MEDSOS === */
+.medsos{
+    padding: 5px 0;
+    background-color: #0e4c6f;
+}
+.medsos a{
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(184, 184, 9);
+}
+.medsos ul li{
+    display: inline-block;
+    padding-right: 15px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    /* border: 1px solid; */
+}
+/* === MEDSOS === */
+
+header h1{
+    float: left;
+    padding: 15px 0;
+}
+header h1 a{
+    text-decoration: none;
+    color: #0e4c6f;
+}
+header ul{
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+header ul li a:hover{
+    text-decoration: none;
+    background-color: #0e4c6f;
+    color: white;
+}
+.active{
+    background-color: #0e4c6f;
+    color: white;
+}
+/* === HEADER === */
+
+
+/* === BANNER === */
+.banner{
+    height: 80vh;
+    background-image: url('../img/Dzikir Desktop.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(125, 129, 172, 0.6);
+}
+.banner h2{
+    color: white;
+    border: 3px solid white;
+    padding: 20px 25px;
+    z-index: 1;
+}
+.container:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* === ABOUT === */
+section{
+    padding: 50px 0;   
+}
+section h3{
+    text-align: center;
+    padding: 20px 0;
+    color: #0e4c6f;
+    margin-bottom: 25px;
+}
+
+.about p{
+    color: #666;
+    word-spacing: 2px;
+    text-align: justify;
+    line-height: 30px;
+}
+.about, .service{
+    padding-bottom: 100px;
+}
+/* === ABOUT === */
+
+/* === SERVICE === */
+.service{
+    background: linear-gradient(90deg,#F6F8FD 29px,transparent 1%) center,linear-gradient(#F6F8FD 29px,transparent 1%) center,#bfc5d3;
+    background-size: 30px 30px;
+}
+.box{
+    /* border: 1px solid; */
+    color: #0e4c6f;
+}
+.box .col-4{
+    width: 25%;
+    padding: 20px;
+    float: left;
+    text-align: center;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+
+}
+.icon{
+    border: 1px solid;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.box .col-4 h4{
+    margin: 20px 0;
+
+}
+
+footer{
+    padding: 30px 0;
+    background-color: #0e4c6f;
+    color: white;
+    text-align: center;
+}
+
+/* === SERVICE === */
+
+.contact{
+    background: linear-gradient(90deg,#F6F8FD 29px,transparent 1%) center,linear-gradient(#F6F8FD 29px,transparent 1%) center,#bfc5d3;
+    background-size: 30px 30px;
+}
+.peta{
+    padding-bottom: 100px;
+    padding-top: 0px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
